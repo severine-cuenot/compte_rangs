@@ -1,4 +1,52 @@
 body {
   background-color: #8EC5FC;
   background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
 }
+
+h1 {
+  margin-top: 3em;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2em;
+  color: #2b2333;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+/* FIRST COUNTER */
+.first_counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  background-color: rgb(253, 245, 235);
+  border-radius: 2em;
+  padding: 1.5em;
+}
+
+.first_counter__text {
+  font-size: 1.5em;
+}
+
+.first_counter__count {
+  font-weight: 600;
+  font-size: 1.7em;
+  color: #6a567e;
+}
+
+.first_counter_btn {
+  margin-top: 1em;
+  padding: 1em;
+  font-family: inherit;
+  border-radius: 1em;
+  border: 0; 
+  cursor: pointer;
+}
+
+

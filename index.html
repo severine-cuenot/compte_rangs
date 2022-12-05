@@ -7,17 +7,23 @@
   <title>Compte-Rangs</title>
   <link rel="stylesheet" media="screen" type="text/css" href="/style/reset.css"> 
   <link rel="stylesheet" media="screen" type="text/css" href="/style/style.css"> 
+
+  <!-- FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet"> 
   
 </head>
 <body>
   
   <header>
-    <h1>Compte-Rangs qui déchire</h1>
+    <h1>Compte-Rangs de Nine & NeexNee</h1>
   </header>
-  <main>
+  <main class="container">
     <section class="first_counter">
-      <p>Rang n°<span id="clickCount">0</span></p>
-      <input type="button" onclick="counter()" value="Ajouter un rang" /> 
+      <p class="first_counter__text">Rang n° <span id="clickCount" class="first_counter__count">0</span></p>
+      <input type="button" onclick="counter()" value="Ajouter un rang" class="first_counter_btn" /> 
+      <input type="button" onclick="resetCounter()" value="Réinitialiser" class="first_counter_btn" id="reset" /> 
     </section>
   </main>
   <script type="text/javascript" src="index.js"></script>
